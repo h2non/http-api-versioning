@@ -1,8 +1,8 @@
 # http-api-versioning
 
-Analysis and discussion for multiple HTTP API versioning design approachs and strategies.
+This document is a discussion frame about multiple HTTP API versioning design approachs and strategies.
 
-For a general HTTP API design, take a look at [http-api-design](https://github.com/interagent/http-api-design)
+For general purpose HTTP API design, take a look at [http-api-design](https://github.com/interagent/http-api-design)
 
 ## Rationale 
 
