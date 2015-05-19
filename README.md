@@ -24,9 +24,10 @@ Using `Version` or `X-Version` headers
 
 ### Accept header
 
-### Base path
+Proposed mechanism from http-api-design.
 
-### 
+
+### URI path
 
 ## License
 
