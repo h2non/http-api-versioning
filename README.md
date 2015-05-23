@@ -41,9 +41,6 @@ Proposed mechanism from http-api-design.
 
 ### URI path
 
-## Contributing
-
-Help is always appreciated. Feel free to open an issue or makea pull request with your improvements
 
 ## License
 
