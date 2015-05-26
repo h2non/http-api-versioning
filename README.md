@@ -2,6 +2,8 @@
 
 This document aims to analysis and provide a discussion frame about multiple HTTP API versioning design approachs and strategies.
 
+**This is a work in progress**
+
 ## Introduction
 
 I think that software is social by nature. Software is about mainly building abstract things that a computer can understand. Software is also about interfaces. Interfaces are an concrete and mostly consistent way to give the hability to the software to became social, and therefore, talk with other software based components.
@@ -27,6 +29,8 @@ Using `Version` or `X-Version` headers
 Example:
 ```
 HTTP/1.1
+GET /resource
+Version: 1.0
 ```
 
 #### Pros
@@ -39,8 +43,20 @@ HTTP/1.1
 
 Proposed mechanism from http-api-design.
 
+Example:
+```
+HTTP/1.1
+GET /resource
+Accept: application/json; version=1.0
+```
+
 ### URI path
 
+Example:
+```
+HTTP/1.1
+GET /v1/resource
+```
 
 ## License
 
