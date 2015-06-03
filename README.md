@@ -1,6 +1,6 @@
 # HTTP API Versioning
 
-This document aims to analysis and provide a discussion frame about multiple HTTP API versioning design approachs and strategies.
+This document aims to analyze and provide a discussion frame for multiple HTTP API versioning design approachs and strategies.
 
 **This is a work in progress**
 
@@ -28,8 +28,7 @@ Using `Version` or `X-Version` headers
 
 Example:
 ```
-HTTP/1.1
-GET /resource
+GET /resource HTTP/1.1
 Version: 1.0
 ```
 
@@ -45,8 +44,7 @@ Proposed mechanism from http-api-design.
 
 Example:
 ```
-HTTP/1.1
-GET /resource
+GET /resource HTTP/1.1
 Accept: application/json; version=1.0
 ```
 
@@ -54,8 +52,7 @@ Accept: application/json; version=1.0
 
 Example:
 ```
-HTTP/1.1
-GET /v1/resource
+GET /v1/resource HTTP/1.1
 ```
 
 ## License
